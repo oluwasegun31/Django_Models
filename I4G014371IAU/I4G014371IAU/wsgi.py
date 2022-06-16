@@ -1,5 +1,5 @@
 """
-WSGI config for Olowosoyo project.
+WSGI config for I4G014371IAU project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'Olowosoyo.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'I4G014371IAU.settings')
 
 application = get_wsgi_application()
